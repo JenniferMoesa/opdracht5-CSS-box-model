@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: white;
+  /* background-color: black;
+  color: white; */
   font-family: cursive, fantasy;
 }
 
@@ -9,7 +9,7 @@ h1,h2,h3 {
 }
 
 .pink-border {
-  border: 5px dotted pink;
+  border: 5px dotted rgb(178, 10, 245);
   border-radius: 12px;
   margin: 20px;
   padding: 15px;
@@ -22,6 +22,7 @@ h1,h2,h3 {
 /* Een element centreren */
 h1 {
   margin: o auto;
+  color: rgb(219, 22, 219);
 }
 
 .title, footer{
@@ -35,7 +36,7 @@ ul {
   padding: 0;
 }
 
-.nav-li {
+.navigation-links {
   display: inline-flex;
 }
 
